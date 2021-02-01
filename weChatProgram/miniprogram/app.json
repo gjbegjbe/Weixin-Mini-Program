@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room",
+    "pages/robot/robot",
+    "pages/DQJTest/DQJTEST",
+    "pages/more",
+    "pages/myRecord/myRecord",
+    "pages/myRecord/addRecord/addRecord"
+  ],
+  "plugins": {
+    "chatbot": {
+      "version": "1.1.16",
+      "provider": "wx8c631f7e9f2465e1"
+    },
+    "WechatSI": {
+      "version": "0.3.1",
+      "provider": "wx069ba97219f66d99"
+    }
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "requiredBackgroundModes": ["audio"],
+  "tabBar": {
+    "color": "#626567",
+    "selectedColor": "#2A8CE5",
+    "backgroundColor": "#FBFBFB",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },      
+      {
+        "pagePath": "pages/myRecord/myRecord",
+        "text": "我的记录"
+      }
+    ]
+  }
+}

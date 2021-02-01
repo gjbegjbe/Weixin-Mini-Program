@@ -1,0 +1,4 @@
+<!--pages/DQJTest/DQJTEST.wxml-->
+<text>此页面URL：pages/DQJTest/DQJTEST.wxml</text>
+<button bindtap='add'>往数据库加一个1
+</button>

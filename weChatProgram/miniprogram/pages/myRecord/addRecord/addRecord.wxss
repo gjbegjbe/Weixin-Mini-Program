@@ -1,0 +1,12 @@
+.btn {
+  width: 95%;
+  margin-top: 20rpx;
+  background-color: purple;
+  color: white;
+  border-radius: 10rpx;
+}
+.head-center{
+  text-align: center;
+  color: purple;
+  font-weight:bold;
+}

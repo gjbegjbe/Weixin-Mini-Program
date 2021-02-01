@@ -1,0 +1,26 @@
+<!--pages/robot/robot.wxml-->
+<!-- <view style="height: 100vh;">
+    <view class="nav-wrap" style="height: 100px;">
+        <view class="nav-title" style="line-height: 100px">自定义导航</view>
+    </view>
+    <view style="height: calc(100vh - 100px)">
+        <chat bind:backHome="goBackHome" />
+    </view>
+</view>
+<view style="height: 100vh">
+    <chat bind:backHome="goBackHome" />
+</view> -->
+<!-- <view style="height: 100vh">
+    <chat bind:queryCallback="getQueryCallback" bind:backHome="goBackHome" />
+</view> -->
+
+<!-- 先前尝试部分代码 -->
+<!-- <view style="height: 100vh">
+    <chat bind:backHome="goBackHome" bind:queryCallback="getQueryCallback" bind:openWebview="openWebview" bind:openMiniProgram="openMiniProgram" />
+</view> -->
+
+<view style="height: 100vh">
+    <chat bind:backHome="goBackHome" bind:queryCallback="getQueryCallback"/>
+</view>
+ 
+ 

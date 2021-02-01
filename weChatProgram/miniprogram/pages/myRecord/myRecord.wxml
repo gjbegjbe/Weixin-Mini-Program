@@ -1,0 +1,33 @@
+<!-- index.wxml
+<scroll-view scroll-y="true" class="container" bindscrolltoupper="upper" upper-threshold="10" lower-threshold="5" bindscrolltolower="lower"  scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+    <block wx:for="{{feed}}" wx:for-index="idx" wx:for-item="item" data-idx="{{idx}}">
+        <view class="feed-item">
+            <view class="feed-content">
+                <view class="question" data-qid="{{item.id}}" bindtap="bindQueTap">
+                    <a class="question-link">
+                        <text>{{item.title}}</text>
+                    </a>
+                </view>
+                <view class="answer-body">
+                    <view data-aid="{{item.answer_id}}" data-uid="{{item.answer_user_id}}" bindtap="bindItemTap">
+                        <text class="answer-txt answer_brief" >{{item.nickname}} : {{item.answer_content}}</text>
+                    </view>
+                    <view class="answer-actions">
+                    </view>
+                </view>
+            </view>
+        </view>
+    </block>
+</scroll-view>
+<view
+bindtap='putQuestion'>
+<image class='put-question' src='../../images/putQuestion.png'></image>
+</view>
+ -->
+<text>此页面URL：pages/DQJTest/DQJTEST.wxml</text>
+<button bindtap='add'>往数据库加一个1
+</button>
+<view
+bindtap='addRecord'>
+<image class='add-record' src='../../images/addRecord.png'></image>
+</view>
